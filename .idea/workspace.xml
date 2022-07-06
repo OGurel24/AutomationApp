@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/local_storage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/local_storage.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/1-getting-started/todo.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/actions.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/aliasing.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/assertions.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/connectors.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/cookies.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/cypress_api.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/files.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/local_storage.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/location.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/misc.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/navigation.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/network_requests.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/querying.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/spies_stubs_clocks.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/traversal.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/utilities.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/viewport.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/waiting.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/2-advanced-examples/window.cy.js.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ui.cy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/e2e/ui.cy.js" working-dir="$PROJECT_DIR$/cypress/e2e">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ui.cy.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657114133580</updated>
       <workItem from="1657114138082" duration="1779000" />
+      <workItem from="1657121969462" duration="4113000" />
     </task>
     <servers />
   </component>
@@ -68,5 +81,17 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
