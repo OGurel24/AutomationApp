@@ -3,14 +3,14 @@ describe('UI Tests', () => {
         cy.visit('http://www.uitestingplayground.com/');
     })
 
-    it('1-Dynamic ID', () => {
+    it.skip('1-Dynamic ID', () => {
         cy.contains('Dynamic ID')
             .click(); //navigate correct test
         cy.get('.btn.btn-primary')
             .click();
     });
 
-    it('2-Class Attribute', () => {
+    it.skip('2-Class Attribute', () => {
         cy.contains('Class Attribute')
             .click(); //navigate correct test
         cy.get('.btn-primary.btn-test')
@@ -91,10 +91,31 @@ describe('UI Tests', () => {
             .should('have.text','onur')
     });
 
-    it('9-Scrollbars', () => {
+    it.skip('9-Scrollbars', () => {
         cy.contains('Scrollbars')
             .click(); //navigate correct test
         cy.get('#github')
             .trigger('mouseover');
+    });
+
+    it.skip('11-Verify Text', () => {
+        cy.contains('Verify Text')
+            .click(); //navigate correct test
+        cy.contains('Welcome')
+            .should('exist')
+    });
+
+    it.skip('12-Progress Bar', () => {
+        cy.contains('Progress Bar')
+            .click(); //navigate correct test
+        cy.get('#startButton')
+            .should('exist')
+            .click();
+        cy.get('#progressBar')
+            .contains('75%', {timeout: 20000});
+        cy.get('#stopButton')
+            .click();
+        cy.get('#progressBar')
+            .should('have.text','75%');
     });
 })

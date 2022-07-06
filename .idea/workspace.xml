@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/ui.cy.js/UI Tests -- 5-AJAX Data (failed).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,8 @@
       <updated>1657114133580</updated>
       <workItem from="1657114138082" duration="1779000" />
       <workItem from="1657121969462" duration="5528000" />
-      <workItem from="1657127736309" duration="971000" />
+      <workItem from="1657127736309" duration="1646000" />
+      <workItem from="1657136409589" duration="943000" />
     </task>
     <servers />
   </component>
