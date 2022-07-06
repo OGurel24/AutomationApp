@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OGurel24/AutomationApp/issues"
   },
-  "homepage": "https://github.com/OGurel24/AutomationApp#readme"
+  "homepage": "https://github.com/OGurel24/AutomationApp#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
 }
