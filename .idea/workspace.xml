@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="" />
+    <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/local_storage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/local_storage.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657114133580</updated>
-      <workItem from="1657114138082" duration="318000" />
+      <workItem from="1657114138082" duration="1779000" />
     </task>
     <servers />
   </component>

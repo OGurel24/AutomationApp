@@ -5,7 +5,7 @@ context('Connectors', () => {
     cy.visit('https://example.cypress.io/commands/connectors')
   })
 
-  it('.each() - iterate over an array of elements', () => {
+  it.skip('.each() - iterate over an array of elements', () => {
     // https://on.cypress.io/each
     cy.get('.connectors-each-ul>li')
       .each(($el, index, $list) => {
@@ -13,7 +13,7 @@ context('Connectors', () => {
       })
   })
 
-  it('.its() - get properties on the current subject', () => {
+  it.skip('.its() - get properties on the current subject', () => {
     // https://on.cypress.io/its
     cy.get('.connectors-its-ul>li')
       // calls the 'length' property yielding that value
@@ -21,7 +21,7 @@ context('Connectors', () => {
       .should('be.gt', 2)
   })
 
-  it('.invoke() - invoke a function on the current subject', () => {
+  it.skip('.invoke() - invoke a function on the current subject', () => {
     // our div is hidden in our script.js
     // $('.connectors-div').hide()
 
@@ -32,7 +32,7 @@ context('Connectors', () => {
       .should('be.visible')
   })
 
-  it('.spread() - spread an array as individual args to callback function', () => {
+  it.skip('.spread() - spread an array as individual args to callback function', () => {
     // https://on.cypress.io/spread
     const arr = ['foo', 'bar', 'baz']
 
@@ -44,7 +44,7 @@ context('Connectors', () => {
   })
 
   describe('.then()', () => {
-    it('invokes a callback function with the current subject', () => {
+    it.skip('invokes a callback function with the current subject', () => {
       // https://on.cypress.io/then
       cy.get('.connectors-list > li')
         .then(($lis) => {
@@ -55,7 +55,7 @@ context('Connectors', () => {
         })
     })
 
-    it('yields the returned value to the next command', () => {
+    it.skip('yields the returned value to the next command', () => {
       cy.wrap(1)
         .then((num) => {
           expect(num).to.equal(1)
@@ -67,7 +67,7 @@ context('Connectors', () => {
         })
     })
 
-    it('yields the original subject without return', () => {
+    it.skip('yields the original subject without return', () => {
       cy.wrap(1)
         .then((num) => {
           expect(num).to.equal(1)
@@ -79,7 +79,7 @@ context('Connectors', () => {
         })
     })
 
-    it('yields the value yielded by the last Cypress command inside', () => {
+    it.skip('yields the value yielded by the last Cypress command inside', () => {
       cy.wrap(1)
         .then((num) => {
           expect(num).to.equal(1)
