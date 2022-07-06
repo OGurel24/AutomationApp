@@ -44,7 +44,7 @@ describe('UI Tests', () => {
             .click();
     });
 
-    it('5-AJAX Data', () => {
+    it.skip('5-AJAX Data', () => {
         cy.contains('AJAX Data')
             .click(); //navigate correct test
 
@@ -57,4 +57,44 @@ describe('UI Tests', () => {
             .should('be.visible');
     });
 
+    it.skip('6-Client Side Delay', () => {
+        cy.contains('Client Side Delay')
+            .click(); //navigate correct test
+
+        cy.contains('Data calculated on the client side.')
+            .should('not.exist');
+        cy.get('.btn.btn-primary')
+            .click();
+        cy.contains('Data calculated on the client side.', {timeout: 20000})
+            .should('exist')
+            .should('be.visible');
+    });
+
+    it.skip('7-Click', () => {
+        cy.contains('Click')
+            .click(); //navigate correct test
+        cy.get('.btn.btn-success')
+            .should('not.exist');
+        cy.get('.btn.btn-primary')
+            .trigger('click'); // trigger click
+        cy.get('.btn.btn-success')
+            .should('exist');
+    });
+
+    it.skip('8-Text Input', () => {
+        cy.contains('Text Input')
+            .click(); //navigate correct test
+        cy.get('.form-control')
+            .type('onur');
+        cy.get('.btn.btn-primary')
+            .click()
+            .should('have.text','onur')
+    });
+
+    it('9-Scrollbars', () => {
+        cy.contains('Scrollbars')
+            .click(); //navigate correct test
+        cy.get('#github')
+            .trigger('mouseover');
+    });
 })
