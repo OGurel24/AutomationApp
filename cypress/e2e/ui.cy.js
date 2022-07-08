@@ -30,13 +30,14 @@ describe('UI Tests', () => {
             .should('be.visible')
             .click();
 
-        cy.get('#greenButton')
-            .parent()
-            .find('.spa-view')
-            .should('have.css', 'style', 'z-index: 2;')
-        ;
-        cy.get('#blueButton')
-            .should('be.visible');
+        cy.get('#greenButton') // z-index of green button is 1
+            .parents('.spa-view')
+            .should('have.attr', 'style', 'z-index: 1;');
+
+        cy.get('#blueButton') // z-index of blue button is 1 and it is visible
+            .should('be.visible')
+            .parents('.spa-view')
+            .should('have.attr', 'style', 'z-index: 2;');
     });
 
     it.skip('4-Load Delays', () => {
@@ -100,6 +101,21 @@ describe('UI Tests', () => {
             .trigger('mouseover');
     });
 
+    it.skip('10-Dynamic Table', () => {
+        cy.contains('Dynamic Table')
+            .click(); //navigate correct test
+
+        cy.get('.bg-warning').invoke('text').then(percentageTable => {
+            cy.get('[role="table"]')
+                .contains('Chrome')
+                .parent('[role="row"]')
+                .contains('%')
+                .invoke('text').then(percentageFooter => {
+                expect(percentageTable).to.contain(percentageFooter);
+            })
+        });
+    });
+
     it.skip('11-Verify Text', () => {
         cy.contains('Verify Text')
             .click(); //navigate correct test
@@ -150,13 +166,13 @@ describe('UI Tests', () => {
             .should('be.visible')
             .should('have.text', 'Hide').click(); // Hide button
 
-        cy.get('.btn.btn-danger').should('')
+        cy.get('.btn.btn-danger').should('not.exist')
         cy.get('.btn.btn-warning').should('not.be.visible')
-        cy.get('.btn.btn-success').should('not.be.visible')
+        cy.get('.btn.btn-success').should('have.css', 'color', 'rgb(255, 255, 255)')
         cy.get('#transparentButton').should('not.be.visible')
         cy.get('#invisibleButton').should('not.be.visible')
         cy.get('#notdisplayedButton').should('not.be.visible')
-        cy.get('#offscreenButton').should('not.be.visible')
+        cy.get('#offscreenButton').should('have.css', 'color', 'rgb(255, 255, 255)')
         cy.get('.btn.btn-primary').should('be.visible')
     });
 
@@ -203,22 +219,18 @@ describe('UI Tests', () => {
         cy.contains('Overlapped Element')
             .click(); //navigate correct test
 
-        cy.get('#name')
-            .trigger('mouseover')
-            .scrollTo(0, 1)
+        cy.get('#name').focus()
             .type('onur')
-            .should('have.text', 'onur');
-
+            .invoke('val') // read the value
+            .as('text')
+            .should('equal', 'onur', '@text');
     });
 
     it.skip('18-Shadow DOM', () => {
         cy.on('uncaught:exception', (err, runnable) => {
             return false
         })
-        let clipText;
-        document.addEventListener('paste', function (event) {
-            clipText = event.clipboardData.getData('Text');
-        });
+
         cy.contains('Shadow DOM')
             .click(); //navigate correct test
 
@@ -227,25 +239,28 @@ describe('UI Tests', () => {
             .find('#buttonGenerate')
             .click();
 
-
         cy.get('guid-generator')
             .shadow()
             .find('#buttonCopy')
             .click();
-
 
         cy.get('guid-generator')
             .shadow()
             .find('#editField')
             .invoke('val').as('password')
 
+        cy.reload()
+
+        let clipText;
+        document.addEventListener('paste', function (event) {
+            clipText = event.clipboardData.getData('Text');
+        });
+
         cy.get('guid-generator')
             .shadow()
-            .find('#editField')
-            .click()
-            .trigger('paste');
+            .find('#editField').type('{meta+v}')
 
-        cy.get('@password').then(text=>{
+        cy.get('@password').then(text => {
             expect(text).equal(clipText);
         })
     })
