@@ -4,7 +4,6 @@
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/ui.cy.js/UI Tests -- 18-Shadow DOM (failed).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,8 @@
       <workItem from="1657127736309" duration="1646000" />
       <workItem from="1657136409589" duration="10957000" />
       <workItem from="1657206556013" duration="2196000" />
-      <workItem from="1657265197225" duration="11034000" />
+      <workItem from="1657265197225" duration="12096000" />
+      <workItem from="1657306210569" duration="1288000" />
     </task>
     <servers />
   </component>

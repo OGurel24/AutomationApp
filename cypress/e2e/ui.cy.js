@@ -228,7 +228,7 @@ describe('UI Tests', () => {
 
     it.skip('18-Shadow DOM', () => {
         cy.on('uncaught:exception', (err, runnable) => {
-            return false
+            return false // for preventing console error
         })
 
         cy.contains('Shadow DOM')
@@ -249,8 +249,7 @@ describe('UI Tests', () => {
             .find('#editField')
             .invoke('val').as('password')
 
-        cy.reload()
-
+        // event listener for paste event
         let clipText;
         document.addEventListener('paste', function (event) {
             clipText = event.clipboardData.getData('Text');
@@ -258,7 +257,7 @@ describe('UI Tests', () => {
 
         cy.get('guid-generator')
             .shadow()
-            .find('#editField').type('{meta+v}')
+            .find('#editField').type('{meta+ctrl+v}') // paste for all operating systems
 
         cy.get('@password').then(text => {
             expect(text).equal(clipText);
