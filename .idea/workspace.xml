@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/ui.cy.js/UI Tests -- 18-Shadow DOM (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +34,17 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cypress/e2e/UI" />
+      <recent name="$PROJECT_DIR$/cypress/e2e" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="ui.cy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/e2e/ui.cy.js" working-dir="$PROJECT_DIR$/cypress/e2e">
+    <configuration name="ui.cy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" working-dir="$PROJECT_DIR$/cypress/e2e">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -59,7 +67,8 @@
       <workItem from="1657136409589" duration="10957000" />
       <workItem from="1657206556013" duration="2196000" />
       <workItem from="1657265197225" duration="12096000" />
-      <workItem from="1657306210569" duration="1288000" />
+      <workItem from="1657306210569" duration="2457000" />
+      <workItem from="1657355933039" duration="1467000" />
     </task>
     <servers />
   </component>

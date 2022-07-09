@@ -3,7 +3,7 @@ describe('UI Tests', () => {
         cy.visit('http://www.uitestingplayground.com/');
     })
 
-    it.skip('1-Dynamic ID', () => {
+    it('1-Dynamic ID', () => {
         cy.contains('Dynamic ID')
             .click(); //navigate correct test
 
@@ -11,7 +11,7 @@ describe('UI Tests', () => {
             .click();
     });
 
-    it.skip('2-Class Attribute', () => {
+    it('2-Class Attribute', () => {
         cy.contains('Class Attribute')
             .click(); //navigate correct test
 
@@ -23,7 +23,7 @@ describe('UI Tests', () => {
         })
     });
 
-    it.skip('3-Hidden Layers', () => {
+    it('3-Hidden Layers', () => {
         cy.contains('Hidden Layers')
             .click(); //navigate correct test
         cy.get('#greenButton')
@@ -40,14 +40,14 @@ describe('UI Tests', () => {
             .should('have.attr', 'style', 'z-index: 2;');
     });
 
-    it.skip('4-Load Delays', () => {
+    it('4-Load Delays', () => {
         cy.contains('Load Delay')
             .click(); //navigate correct test
         cy.get('.btn.btn-primary', {timeout: 15000}) // wait up to 15 seconds
             .click();
     });
 
-    it.skip('5-AJAX Data', () => {
+    it('5-AJAX Data', () => {
         cy.contains('AJAX Data')
             .click(); //navigate correct test
 
@@ -60,7 +60,7 @@ describe('UI Tests', () => {
             .should('be.visible');
     });
 
-    it.skip('6-Client Side Delay', () => {
+    it('6-Client Side Delay', () => {
         cy.contains('Client Side Delay')
             .click(); //navigate correct test
 
@@ -73,7 +73,7 @@ describe('UI Tests', () => {
             .should('be.visible');
     });
 
-    it.skip('7-Click', () => {
+    it('7-Click', () => {
         cy.contains('Click')
             .click(); //navigate correct test
         cy.get('.btn.btn-success')
@@ -84,7 +84,7 @@ describe('UI Tests', () => {
             .should('exist');
     });
 
-    it.skip('8-Text Input', () => {
+    it('8-Text Input', () => {
         cy.contains('Text Input')
             .click(); //navigate correct test
         cy.get('.form-control')
@@ -94,14 +94,14 @@ describe('UI Tests', () => {
             .should('have.text', 'onur')
     });
 
-    it.skip('9-Scrollbars', () => {
+    it('9-Scrollbars', () => {
         cy.contains('Scrollbars')
             .click(); //navigate correct test
         cy.get('#github')
             .trigger('mouseover');
     });
 
-    it.skip('10-Dynamic Table', () => {
+    it('10-Dynamic Table', () => {
         cy.contains('Dynamic Table')
             .click(); //navigate correct test
 
@@ -116,14 +116,14 @@ describe('UI Tests', () => {
         });
     });
 
-    it.skip('11-Verify Text', () => {
+    it('11-Verify Text', () => {
         cy.contains('Verify Text')
             .click(); //navigate correct test
         cy.contains('Welcome')
             .should('exist')
     });
 
-    it.skip('12-Progress Bar', () => {
+    it('12-Progress Bar', () => {
         cy.contains('Progress Bar')
             .click(); //navigate correct test
         cy.get('#startButton')
@@ -137,7 +137,7 @@ describe('UI Tests', () => {
             .should('have.text', '75%');
     });
 
-    it.skip('13-Visibility', () => {
+    it('13-Visibility', () => {
         cy.contains('Visibility')
             .click(); //navigate correct test
 
@@ -176,7 +176,7 @@ describe('UI Tests', () => {
         cy.get('.btn.btn-primary').should('be.visible')
     });
 
-    it.skip('14-Sample App', () => {
+    it('14-Sample App', () => {
         cy.contains('Sample App')
             .click(); //navigate correct test
 
@@ -191,7 +191,7 @@ describe('UI Tests', () => {
         cy.contains('Welcome, onur').should('exist');
     });
 
-    it.skip('15-Mouse Over', () => {
+    it('15-Mouse Over', () => {
         cy.contains('Mouse Over')
             .click(); //navigate correct test
 
@@ -207,7 +207,7 @@ describe('UI Tests', () => {
             .should('exist');
     });
 
-    it.skip('16-Non-Breaking Space', () => {
+    it('16-Non-Breaking Space', () => {
         cy.contains('Non-Breaking Space')
             .click(); //navigate correct test
 
@@ -215,7 +215,7 @@ describe('UI Tests', () => {
             .should('exist');
     });
 
-    it.skip('17-Overlapped Element', () => {
+    it('17-Overlapped Element', () => {
         cy.contains('Overlapped Element')
             .click(); //navigate correct test
 
@@ -226,7 +226,7 @@ describe('UI Tests', () => {
             .should('equal', 'onur', '@text');
     });
 
-    it.skip('18-Shadow DOM', () => {
+    it('18-Shadow DOM', () => {
         cy.on('uncaught:exception', (err, runnable) => {
             return false // for preventing console error
         })
