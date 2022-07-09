@@ -13,6 +13,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          registry: npm config set registry http://registry.npmjs.org/
           build: npm run build
           start: npm start
