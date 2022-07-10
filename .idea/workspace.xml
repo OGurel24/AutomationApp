@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/API/sanity_api.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/API/sanity_api.cy.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/UI/sanity_ui.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/UI/sanity_ui.cy.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/UI/ui.cy.js.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +69,7 @@
       <workItem from="1657306210569" duration="2457000" />
       <workItem from="1657355933039" duration="1467000" />
       <workItem from="1657390994994" duration="870000" />
+      <workItem from="1657459890421" duration="447000" />
     </task>
     <servers />
   </component>
