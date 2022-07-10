@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "all_tests": "cypress run",
+    "all_tests_headed": "cypress run --headed",
+    "ui_tests": "cypress run --spec cypress/e2e/UI",
+    "ui_tests_headed": "cypress run --spec cypress/e2e/UI --headed",
+    "api_tests": "cypress run --spec cypress/e2e/API",
+    "api_tests_headed": "cypress run --spec cypress/e2e/API --headed"
+
   },
   "repository": {
     "type": "git",
