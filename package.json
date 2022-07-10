@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/OGurel24/AutomationApp#readme",
   "devDependencies": {
+    "axios": "^0.27.2",
     "cypress": "^10.3.0",
-    "cypress-mochawesome-reporter": "^3.2.0"
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "form-data": "^4.0.0"
   }
 }
