@@ -14,6 +14,7 @@ module.exports = defineConfig({
               const axios = require('axios');
               const FormData = require('form-data');
               const fs = require('fs');
+              const os = require('os')
 
               const form = new FormData();
               form.append('file[]',
@@ -21,12 +22,13 @@ module.exports = defineConfig({
                   './mochawesome-report/mochawesome.json');
 
               const response = await axios.post(
-                  'https://app.calliope.pro/api/v2/profile/4390/import?tag[]=mac&tag[]=x64&tag[]=1\n',
+                  `https://app.calliope.pro/api/v2/profile/4390/import?tag[]=${os.type()}&tag[]=${os.arch()}`,
                   form,
                   {
                     headers: {
                       ...form.getHeaders(),
                       'Content-Type': 'multipart/form-data',
+                        // Normally API key only should be in server machine but for easiness it is added in here
                       'x-api-key': 'MDk1ZWYwZmJiZjBkYzg5YmMwY2NkOGVhMjgyMjBhY2Q0NWNkNzQzZWM1OTg0NzhjYjdiZjE4OGUwMzJkN2U4YjYy',
                     }
                   }

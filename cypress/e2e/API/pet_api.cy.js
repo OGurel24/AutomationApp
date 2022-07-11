@@ -263,7 +263,11 @@ describe('Pet API', () => {
                 });
 
             // Try to delete the pet one more time, get 404
-            cy.request('DELETE', `https://petstore.swagger.io/v2/pet/${petData['id']}`)
+            cy.request({
+                method: 'DELETE',
+                url: `https://petstore.swagger.io/v2/pet/${petData['id']}`,
+                failOnStatusCode: false
+            })
                 .then((response) => {
                     expect(response.status).equal(404);
                     expect(response.statusText).equal('Not Found');
