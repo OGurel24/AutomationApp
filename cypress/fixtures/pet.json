@@ -1,0 +1,19 @@
+{
+  "id": 24,
+  "category": {
+    "id": 2,
+    "name": "Cat"
+  },
+  "name": "Saruman",
+  "photoUrls": [
+    "https://static.wikia.nocookie.net/lotr/images/0/0c/Christopher_Lee_as_Saruman.jpg/revision/latest/top-crop/width/360/height/360?cb=20170127113833"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "White"
+    }
+  ],
+  "status": "available"
+}
+
