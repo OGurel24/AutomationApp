@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/API/pet_api.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/API/pet_api.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/_sanity_api.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/_sanity_api.cy.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/videos/pet_api.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/pet_api.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/UI/ui.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/_sanity_api.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/pet_api.cy.js.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" afterDir="false" />
     </list>
