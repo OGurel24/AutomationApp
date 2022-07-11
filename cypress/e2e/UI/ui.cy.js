@@ -226,7 +226,7 @@ describe('UI Tests', () => {
             .should('equal', 'onur', '@text');
     });
 
-    it('18-Shadow DOM', () => {
+    it.skip('18-Shadow DOM', () => {
         cy.on('uncaught:exception', (err, runnable) => {
             return false // for preventing console error
         })
