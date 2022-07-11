@@ -30,7 +30,8 @@ module.exports = defineConfig({
                       'x-api-key': 'MDk1ZWYwZmJiZjBkYzg5YmMwY2NkOGVhMjgyMjBhY2Q0NWNkNzQzZWM1OTg0NzhjYjdiZjE4OGUwMzJkN2U4YjYy',
                     }
                   }
-              );
+              ).catch(error=>{
+                  console.log(error)});
 
               const statusCode = response.status;
               if(statusCode===201){
