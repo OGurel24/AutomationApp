@@ -130,7 +130,7 @@ describe('UI Tests', () => {
             .should('exist')
             .click();
         cy.get('#progressBar')
-            .contains('75%', {timeout: 20000});
+            .contains(new RegExp('7[56789]'), {timeout: 40000});
         cy.get('#stopButton')
             .click();
         cy.get('#progressBar')

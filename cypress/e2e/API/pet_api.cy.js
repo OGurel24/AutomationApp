@@ -63,7 +63,7 @@ describe('Pet API', () => {
     });
 
     it('6- Automatically stringify the accidentally given numeric values', () => {
-        petData['name']= 2424; // name should be a string
+        petData['name'] = 2424; // name should be a string
         cy.request('POST', 'https://petstore.swagger.io/v2/pet', petData).then(
             (response) => {
                 expect(response.status).equal(200);
@@ -77,7 +77,7 @@ describe('Pet API', () => {
     });
 
     it('7- Can have more than 1 image', () => {
-        const newImage= 'https://i0.wp.com/ortadunya.com/wp-content/uploads/2018/12/sarumang-andalf.jpg';
+        const newImage = 'https://i0.wp.com/ortadunya.com/wp-content/uploads/2018/12/sarumang-andalf.jpg';
         petData['photoUrls'].push(newImage);
         cy.request('POST', 'https://petstore.swagger.io/v2/pet', petData).then(
             (response) => {
@@ -89,4 +89,14 @@ describe('Pet API', () => {
         )
     });
 
+    it('8- Empty response body handled', () => {
+        petData = {}; // empty JSON
+        cy.request({method: 'POST', url: 'https://petstore.swagger.io/v2/pet', body: petData, failOnStatusCode: false})
+            .then((response) => {
+                    expect(response.status).equal(405);
+                    expect(response.statusText).equal('Method Not Allowed');
+                    expect(response.body['message']).equal('no data');
+                }
+            )
+    });
 })
