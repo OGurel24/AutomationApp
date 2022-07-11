@@ -89,13 +89,13 @@ describe('Pet API', () => {
         )
     });
 
-    it('8- Empty response body handled', () => {
-        petData = {}; // empty JSON
+    it('8- Empty body case', () => {
+        petData = []
         cy.request({method: 'POST', url: 'https://petstore.swagger.io/v2/pet', body: petData, failOnStatusCode: false})
             .then((response) => {
-                    expect(response.status).equal(405);
-                    expect(response.statusText).equal('Method Not Allowed');
-                    expect(response.body['message']).equal('no data');
+                    expect(response.status).equal(500);
+                    expect(response.statusText).equal('Internal Server Error');
+                    expect(response.body['message']).equal('something bad happened');
                 }
             )
     });
