@@ -70,6 +70,11 @@ One of the main points which I realized is report time is not reliable in All Re
 For instances, once, it showed 20 minutes ago as report time, however report uploading finished only 1 minute ago.
 That feature should have been more reliable in order to prevent unnecessary confusion of user.
 
+As a user for couple of days, my personal new feature suggestions would be adding select checkboxes for each report in 
+'All Reports' page(https://app.calliope.pro/profiles/{id}/reports). Whenever I need to clear my reports since limit, I
+have deleted previous reports one by one, and it was extremely boring user experience. Hence, in my opinion, user should
+be able to bulk operations in All Reports page.
+
 Test Case Selection and Importance of Selected Cases
 ------------
 
