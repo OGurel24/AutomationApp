@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 0,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-07-11T10:01:27.005Z",
-    "end": "2022-07-11T10:01:27.124Z",
-    "duration": 119,
-    "testsRegistered": 1,
-    "passPercent": 0,
+    "failures": 0,
+    "start": "2022-07-11T11:30:22.315Z",
+    "end": "2022-07-11T11:30:29.394Z",
+    "duration": 7079,
+    "testsRegistered": 2,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f94782c0-73ec-45ef-b7fe-3deb0b23d0df",
+      "uuid": "d3793b7a-a36d-4834-8dd9-239a7858ba8e",
       "title": "",
       "fullFile": "cypress/e2e/API/try.cy.js",
       "file": "cypress/e2e/API/try.cy.js",
@@ -27,44 +27,59 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9235e8e3-2b5c-4ea2-b2f4-9dc70a9f42f0",
-          "title": "TODO api testing",
+          "uuid": "7b636a18-b993-476b-b4da-44f5f8a6ad56",
+          "title": "Try",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "fetches Todo items - GET",
-              "fullTitle": "TODO api testing fetches Todo items - GET",
+              "title": "1-",
+              "fullTitle": "Try 1-",
               "timedOut": null,
-              "duration": 109,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 7025,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "const axios = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\nconst FormData = __webpack_require__(/*! form-data */ \"./node_modules/form-data/lib/browser.js\");\nconst fs = __webpack_require__(/*! fs */ \"../../../Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/webpack-batteries-included-preprocessor/empty.js\");\nconst form = new FormData();\nform.append('additionalMetadata', 'onur');\nform.append('file', fs.readFileSync('WhatsApp Image 2022-07-08 at 10.20.16.jpeg;type=image/jpeg'), 'WhatsApp Image 2022-07-08 at 10.20.16.jpeg;type=image/jpeg');\nconst response = await axios.post('https://petstore.swagger.io/v2/pet/1/uploadImage', form, {\n  headers: _objectSpread(_objectSpread({}, form.getHeaders()), {}, {\n    'accept': 'application/json',\n    'Content-Type': 'multipart/form-data'\n  })\n});",
-              "err": {
-                "message": "TypeError: fs.readFileSync is not a function",
-                "estack": "TypeError: fs.readFileSync is not a function\n    at Context.eval (http://todo-app-barkend.herokuapp.com/__cypress/tests?p=cypress/e2e/API/try.cy.js:2473:28)",
-                "diff": null
-              },
-              "uuid": "c3f99da8-99de-45b6-b182-f8a7e8207a98",
-              "parentUUID": "9235e8e3-2b5c-4ea2-b2f4-9dc70a9f42f0",
+              "code": "expect(user['name']).equal('Onur Graham');\nuser['name'] = 'Onur Gurel';\ncy.request('POST', 'https://petstore.swagger.io/v2/pet', {\n  'id': 0,\n  'category': {\n    'id': 0,\n    'name': 'string'\n  },\n  'name': 'doggie',\n  'photoUrls': ['string'],\n  'tags': [{\n    'id': 0,\n    'name': 'string'\n  }],\n  'status': 'available'\n}).then(response => {\n  expect(response.statusText).equal('OK');\n  expect(user['name']).equal('Onur Gurel');\n});",
+              "err": {},
+              "uuid": "0f7cb1ad-8452-45bf-92c9-211b7c74801b",
+              "parentUUID": "7b636a18-b993-476b-b4da-44f5f8a6ad56",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "2-",
+              "fullTitle": "Try 2-",
+              "timedOut": null,
+              "duration": 33,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(user['name']).equal('Onur Graham');",
+              "err": {},
+              "uuid": "f1f49568-a216-49e8-8e53-684793b5c5ae",
+              "parentUUID": "7b636a18-b993-476b-b4da-44f5f8a6ad56",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "c3f99da8-99de-45b6-b182-f8a7e8207a98"
+          "passes": [
+            "0f7cb1ad-8452-45bf-92c9-211b7c74801b",
+            "f1f49568-a216-49e8-8e53-684793b5c5ae"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 109,
+          "duration": 7058,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

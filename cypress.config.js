@@ -3,7 +3,6 @@ const {defineConfig} = require("cypress");
 module.exports = defineConfig({
     reporter: 'mochawesome',
     e2e: {
-        baseUrl: "http://todo-app-barkend.herokuapp.com/",
         setupNodeEvents(on, config) {
             on('after:run', async (results) => {
               console.log('Report Upload is starting');
