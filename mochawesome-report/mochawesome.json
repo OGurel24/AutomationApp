@@ -1,15 +1,15 @@
 {
   "stats": {
-    "suites": 0,
+    "suites": 1,
     "tests": 1,
-    "passes": 1,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2022-07-10T19:28:15.038Z",
-    "end": "2022-07-10T19:28:15.067Z",
-    "duration": 29,
+    "failures": 1,
+    "start": "2022-07-11T10:01:27.005Z",
+    "end": "2022-07-11T10:01:27.124Z",
+    "duration": 119,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,42 +18,65 @@
   },
   "results": [
     {
-      "uuid": "47fff5c0-3bb5-4d65-920d-ed2330d5d313",
+      "uuid": "f94782c0-73ec-45ef-b7fe-3deb0b23d0df",
       "title": "",
-      "fullFile": "cypress/e2e/UI/sanity_ui.cy.js",
-      "file": "cypress/e2e/UI/sanity_ui.cy.js",
+      "fullFile": "cypress/e2e/API/try.cy.js",
+      "file": "cypress/e2e/API/try.cy.js",
       "beforeHooks": [],
       "afterHooks": [],
-      "tests": [
+      "tests": [],
+      "suites": [
         {
-          "title": "Sanity Test for UI test scope",
-          "fullTitle": "Sanity Test for UI test scope",
-          "timedOut": null,
-          "duration": 18,
-          "state": "passed",
-          "speed": "fast",
-          "pass": true,
-          "fail": false,
-          "pending": false,
-          "context": null,
-          "code": "expect(true).be.true;",
-          "err": {},
-          "uuid": "ec3ea0c8-a081-4b4d-a646-73b87b270ff6",
-          "parentUUID": "47fff5c0-3bb5-4d65-920d-ed2330d5d313",
-          "isHook": false,
-          "skipped": false
+          "uuid": "9235e8e3-2b5c-4ea2-b2f4-9dc70a9f42f0",
+          "title": "TODO api testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "fetches Todo items - GET",
+              "fullTitle": "TODO api testing fetches Todo items - GET",
+              "timedOut": null,
+              "duration": 109,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const axios = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\nconst FormData = __webpack_require__(/*! form-data */ \"./node_modules/form-data/lib/browser.js\");\nconst fs = __webpack_require__(/*! fs */ \"../../../Library/Caches/Cypress/10.3.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/@cypress/webpack-batteries-included-preprocessor/empty.js\");\nconst form = new FormData();\nform.append('additionalMetadata', 'onur');\nform.append('file', fs.readFileSync('WhatsApp Image 2022-07-08 at 10.20.16.jpeg;type=image/jpeg'), 'WhatsApp Image 2022-07-08 at 10.20.16.jpeg;type=image/jpeg');\nconst response = await axios.post('https://petstore.swagger.io/v2/pet/1/uploadImage', form, {\n  headers: _objectSpread(_objectSpread({}, form.getHeaders()), {}, {\n    'accept': 'application/json',\n    'Content-Type': 'multipart/form-data'\n  })\n});",
+              "err": {
+                "message": "TypeError: fs.readFileSync is not a function",
+                "estack": "TypeError: fs.readFileSync is not a function\n    at Context.eval (http://todo-app-barkend.herokuapp.com/__cypress/tests?p=cypress/e2e/API/try.cy.js:2473:28)",
+                "diff": null
+              },
+              "uuid": "c3f99da8-99de-45b6-b182-f8a7e8207a98",
+              "parentUUID": "9235e8e3-2b5c-4ea2-b2f4-9dc70a9f42f0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c3f99da8-99de-45b6-b182-f8a7e8207a98"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 109,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
         }
       ],
-      "suites": [],
-      "passes": [
-        "ec3ea0c8-a081-4b4d-a646-73b87b270ff6"
-      ],
+      "passes": [],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 18,
+      "duration": 0,
       "root": true,
-      "rootEmpty": false,
+      "rootEmpty": true,
       "_timeout": 2000
     }
   ],

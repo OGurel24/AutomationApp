@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bf32302d-968a-4006-8e97-a8b2c13881af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/sanity_ui.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/ui.cy.js.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" beforeDir="false" afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +81,8 @@
       <workItem from="1657355933039" duration="1467000" />
       <workItem from="1657390994994" duration="870000" />
       <workItem from="1657459890421" duration="1389000" />
-      <workItem from="1657480892836" duration="3477000" />
+      <workItem from="1657480892836" duration="5229000" />
+      <workItem from="1657532351511" duration="1329000" />
     </task>
     <servers />
   </component>
